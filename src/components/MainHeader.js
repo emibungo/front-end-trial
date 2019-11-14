@@ -1,14 +1,14 @@
 const Deact = require("../libs/deact");
-const Nav = require("./Nav");
+
 
 function MainHeader() {
   return Deact.create(
     "header",
     {
-      style: `background-color: #000; display: flex; justify-content: space-between; padding: 1rem;`
+      class: "main-header"
     },
-    "Heavy Metal Haven"
-    // [ AppTitle(), Nav({}, [ArtistsButton()]) ]
+    
+    "Crypt of Death Metal"
   );
 }
 
